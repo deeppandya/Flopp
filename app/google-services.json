@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "701046142610",
+    "firebase_url": "https://flopp-db6a4.firebaseio.com",
+    "project_id": "flopp-db6a4",
+    "storage_bucket": "flopp-db6a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701046142610:android:e9f94157b9c874e5",
+        "android_client_info": {
+          "package_name": "mainpackage.flopp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701046142610-6mlrqnai79njcakv3karrerbqfit1msp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpPrjC5A1MEZgZNVPKR2_nOczdkpyeO2M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

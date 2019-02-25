@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <mainpackage.flopp.utils.AspectLockedImageView
+        android:id="@+id/img_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/content_description"
+        app:imgAspectRatio="@dimen/aspect_ratio" />
+
+    <TextView
+        android:id="@+id/tv_movie_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/black_overlay"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/white" />
+
+</FrameLayout>
